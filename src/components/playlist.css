@@ -1,0 +1,60 @@
+#playlist_main {
+  width: 86%;
+  padding: 35px 10px;
+  margin: auto;
+  display: flex;
+}
+#playlist_data_div {
+  width: 70%;
+  transition: 0.5s;
+  border-left: 7px solid #dadbdd;
+  margin-left: 10px;
+  padding-left: 15px;
+}
+#playlist_sec_div:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.playlist_song_detail {
+  border-bottom: 3px solid rgb(221, 221, 221);
+  backdrop-filter: blur(7px);
+  padding: 1%;
+  height: 125px;
+  transition: 0.7s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.8s;
+}
+.playlist_song_detail:hover {
+  background-color: #b9c3cc7a;
+}
+.playlist_img {
+  width: 20%;
+  height: 110px;
+}
+.playlist_song_name {
+  width: 25%;
+}
+.playlist_song_artist {
+  width: 30%;
+}
+
+#filterDiv {
+  max-height: 150px;
+  padding: 0px 30px;
+  backdrop-filter: blur(7px);
+}
+#filter {
+  width: 80%;
+  height: 40px;
+}
+#empty_playlist {
+  margin: 50px auto;
+  padding: 50px;
+  backdrop-filter: blur(7px);
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+#empty_playlist img {
+  border-radius: 20px;
+}
